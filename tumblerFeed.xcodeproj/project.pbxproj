@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60DAA57174AB875E4538044D /* Pods_tumblerFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C655E50067DB6782CA6E4E /* Pods_tumblerFeed.framework */; };
+		A8A677B21DB2D8E900B81ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8A677B01DB2D8E900B81ECB /* Main.storyboard */; };
 		A8E0081B1DB0A3AD00EFD9F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E0081A1DB0A3AD00EFD9F8 /* AppDelegate.swift */; };
-		A8E0081D1DB0A3AD00EFD9F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E0081C1DB0A3AD00EFD9F8 /* ViewController.swift */; };
-		A8E008201DB0A3AD00EFD9F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E0081E1DB0A3AD00EFD9F8 /* Main.storyboard */; };
+		A8E0081D1DB0A3AD00EFD9F8 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E0081C1DB0A3AD00EFD9F8 /* PhotosViewController.swift */; };
 		A8E008221DB0A3AD00EFD9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E008211DB0A3AD00EFD9F8 /* Assets.xcassets */; };
 		A8E008251DB0A3AD00EFD9F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E008231DB0A3AD00EFD9F8 /* LaunchScreen.storyboard */; };
+		A8E0082F1DB0A58A00EFD9F8 /* TableViewCellPrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E0082E1DB0A58A00EFD9F8 /* TableViewCellPrototype.swift */; };
+		A8E008311DB0CA7600EFD9F8 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E008301DB0CA7600EFD9F8 /* PhotoDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7451535F9FAE7CC7E17F0E9F /* Pods-tumblerFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblerFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tumblerFeed/Pods-tumblerFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		8EF88A61E314CCA28B92358C /* Pods-tumblerFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblerFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-tumblerFeed/Pods-tumblerFeed.release.xcconfig"; sourceTree = "<group>"; };
+		A8A677B11DB2D8E900B81ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8E008171DB0A3AD00EFD9F8 /* tumblerFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tumblerFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E0081A1DB0A3AD00EFD9F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8E0081C1DB0A3AD00EFD9F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A8E0081F1DB0A3AD00EFD9F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8E0081C1DB0A3AD00EFD9F8 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		A8E008211DB0A3AD00EFD9F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8E008241DB0A3AD00EFD9F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8E008261DB0A3AD00EFD9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E0082E1DB0A58A00EFD9F8 /* TableViewCellPrototype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellPrototype.swift; sourceTree = "<group>"; };
+		A8E008301DB0CA7600EFD9F8 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		E5C655E50067DB6782CA6E4E /* Pods_tumblerFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tumblerFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60DAA57174AB875E4538044D /* Pods_tumblerFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CE0546A81CE54B7EED45931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5C655E50067DB6782CA6E4E /* Pods_tumblerFeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D78FFFFAE57F08E42F207E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7451535F9FAE7CC7E17F0E9F /* Pods-tumblerFeed.debug.xcconfig */,
+				8EF88A61E314CCA28B92358C /* Pods-tumblerFeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A8E0080E1DB0A3AC00EFD9F8 = {
 			isa = PBXGroup;
 			children = (
 				A8E008191DB0A3AD00EFD9F8 /* tumblerFeed */,
 				A8E008181DB0A3AD00EFD9F8 /* Products */,
+				9D78FFFFAE57F08E42F207E4 /* Pods */,
+				6CE0546A81CE54B7EED45931 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +82,14 @@
 		A8E008191DB0A3AD00EFD9F8 /* tumblerFeed */ = {
 			isa = PBXGroup;
 			children = (
+				A8A677B01DB2D8E900B81ECB /* Main.storyboard */,
 				A8E0081A1DB0A3AD00EFD9F8 /* AppDelegate.swift */,
-				A8E0081C1DB0A3AD00EFD9F8 /* ViewController.swift */,
-				A8E0081E1DB0A3AD00EFD9F8 /* Main.storyboard */,
 				A8E008211DB0A3AD00EFD9F8 /* Assets.xcassets */,
 				A8E008231DB0A3AD00EFD9F8 /* LaunchScreen.storyboard */,
 				A8E008261DB0A3AD00EFD9F8 /* Info.plist */,
+				A8E0081C1DB0A3AD00EFD9F8 /* PhotosViewController.swift */,
+				A8E008301DB0CA7600EFD9F8 /* PhotoDetailsViewController.swift */,
+				A8E0082E1DB0A58A00EFD9F8 /* TableViewCellPrototype.swift */,
 			);
 			path = tumblerFeed;
 			sourceTree = "<group>";
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8E008291DB0A3AD00EFD9F8 /* Build configuration list for PBXNativeTarget "tumblerFeed" */;
 			buildPhases = (
+				2185152F2AAF3F946CF27F75 /* [CP] Check Pods Manifest.lock */,
 				A8E008131DB0A3AD00EFD9F8 /* Sources */,
 				A8E008141DB0A3AD00EFD9F8 /* Frameworks */,
 				A8E008151DB0A3AD00EFD9F8 /* Resources */,
+				DB9F29259D558E4B74358A80 /* [CP] Embed Pods Frameworks */,
+				D5551F430630B8E4EFB0E852 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +157,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A677B21DB2D8E900B81ECB /* Main.storyboard in Resources */,
 				A8E008251DB0A3AD00EFD9F8 /* LaunchScreen.storyboard in Resources */,
 				A8E008221DB0A3AD00EFD9F8 /* Assets.xcassets in Resources */,
-				A8E008201DB0A3AD00EFD9F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2185152F2AAF3F946CF27F75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5551F430630B8E4EFB0E852 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tumblerFeed/Pods-tumblerFeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB9F29259D558E4B74358A80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tumblerFeed/Pods-tumblerFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A8E008131DB0A3AD00EFD9F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E0081D1DB0A3AD00EFD9F8 /* ViewController.swift in Sources */,
+				A8E008311DB0CA7600EFD9F8 /* PhotoDetailsViewController.swift in Sources */,
+				A8E0082F1DB0A58A00EFD9F8 /* TableViewCellPrototype.swift in Sources */,
+				A8E0081D1DB0A3AD00EFD9F8 /* PhotosViewController.swift in Sources */,
 				A8E0081B1DB0A3AD00EFD9F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,10 +228,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A8E0081E1DB0A3AD00EFD9F8 /* Main.storyboard */ = {
+		A8A677B01DB2D8E900B81ECB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8E0081F1DB0A3AD00EFD9F8 /* Base */,
+				A8A677B11DB2D8E900B81ECB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -257,10 +340,12 @@
 		};
 		A8E0082A1DB0A3AD00EFD9F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7451535F9FAE7CC7E17F0E9F /* Pods-tumblerFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9SKFP92QDP;
 				INFOPLIST_FILE = tumblerFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saviotsui.tumblerFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +355,12 @@
 		};
 		A8E0082B1DB0A3AD00EFD9F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF88A61E314CCA28B92358C /* Pods-tumblerFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9SKFP92QDP;
 				INFOPLIST_FILE = tumblerFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saviotsui.tumblerFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +387,7 @@
 				A8E0082B1DB0A3AD00EFD9F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
